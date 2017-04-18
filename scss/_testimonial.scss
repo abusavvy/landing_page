@@ -1,0 +1,29 @@
+#testimonial{
+     background-color: $dark-blue;
+    padding: 3.125em 0 4em;
+    
+    h2{
+      color:$white;
+    }
+}
+
+.testimonial_box{
+    flex-basis: 48%;
+    background-color: $white;
+    margin-top: 1.5em;
+    padding: 1em;
+    p{
+        clear: both;
+        margin-bottom: 0;
+    }
+}
+.client_detail{
+    float: right;
+    margin-bottom: 1.5em;
+    text-align: right;
+    img{
+        max-width: 50%;
+        float: right;
+        margin-bottom: 1em;
+    }
+}

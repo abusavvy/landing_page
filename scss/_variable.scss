@@ -1,0 +1,43 @@
+$font-stack: 'Open sans', Helvetica, sans-serif;
+$primary-color:#c3c3c3;
+$white:#ffffff;
+$blue:#9ad4ff;
+$main-blue:#189cff;
+$dark-blue:#0c4e7f;
+$gray:#575757;
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+font: 100% $font-stack;
+font-size: 1em;
+line-height: 1.6em;
+color: $gray;
+}
+
+p{
+    font-size: 1em;
+    margin-bottom: 1.875em;
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+	display: block;
+	border: 0;
+	width: 100%;
+	height: auto;
+}

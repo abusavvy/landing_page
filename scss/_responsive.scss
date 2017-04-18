@@ -1,0 +1,106 @@
+@media screen and (max-width: 768px) {
+    header {
+        .header_text {
+            h1 {
+                font-size: 2em;
+                line-height: 1.5em;
+            }
+            p {
+                font-size: 1em;
+                margin-bottom: 30px;
+            }
+        }
+    }
+    #author {
+        .author_detail {
+            .author_image {
+                flex-basis: 30%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 667px) {
+    body {
+        font-size: 1.2em;
+    }
+    .flex-header {
+        flex-direction: column-reverse;
+    }
+    .flex {
+        flex-direction: column;
+    }
+    .header_img {
+        margin-bottom: 2em;
+    }
+    .benefit {
+        .box {
+            ol {
+                margin-bottom: 2em;
+            }
+        }
+    }
+    .sub_btn {
+        margin-top: 1em;
+    }
+    #testimonial {
+        h2 {
+            font-size: 1.5em;
+        }
+    }
+    #author {
+        h2 {
+            margin-bottom: 1em;
+        }
+        .author_image {
+            img {
+                width: 67%;
+                display: block;
+                margin: 0 auto 2em;
+            }
+        }
+    }
+    footer {
+        .cta_btn {
+            font-size: 1.8em;
+            width: 80%;
+            //border-radius: 10px;
+        }
+    }
+}
+@media screen and (max-width: 480px) {
+    #subscribe {
+        p {
+            font-size: 1em;
+        }
+    }
+    #author {
+        h2 {
+            font-size: 2em;
+        }
+    }
+}
+@media screen and (max-width: 320px) {
+    #author {
+        h2 {
+            font-size: 1.5em;
+        }
+        .author_detail {
+            .author_text {
+                margin-top: 20px;
+                p {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+    #testimonial {
+        h2 {
+            font-size: 1.8em;
+            text-align: center;
+            line-height: 1.2em;
+        }
+    }
+}

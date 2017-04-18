@@ -1,0 +1,40 @@
+#subscribe{
+     background-color: lighten($main-blue, 30);
+    padding: 3.125em 0;
+    text-align: center;
+    h2{
+        color: $dark-blue;
+    }
+    p{
+        color: $dark-blue;
+        font-size: 1.25em;
+        font-weight: bold;
+    }
+}
+
+.subform{
+    input{
+        border: none;
+        outline: none;
+       height: 2.25em;
+      font-size: 1.125em;
+    }
+    .subscribe_text{
+        flex-basis: 70%;
+        padding: 0 1em;
+    }
+    .sub_btn{
+        flex-basis: 28%;
+        background-color: $dark-blue;
+        color:$white;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: background-color 5s, ease-in;
+        &:hover{
+        color: lighten($main-blue, 30);
+        background-color: lighten($dark-blue,6); 
+        }
+    }
+}

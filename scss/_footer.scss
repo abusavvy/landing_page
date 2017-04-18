@@ -1,0 +1,60 @@
+footer {
+    background-color: $main-blue;
+    padding: 3.125em 0;
+    text-align: center;
+    h2 {
+        color: $dark-blue;
+        font-size: 2em;
+        letter-spacing: 2px;
+        line-height: 1.5em;
+        margin-bottom: 0.875em;
+    }
+    p {
+        color: $white;
+        margin-bottom: 0;
+        a{
+            color:$dark-blue;
+        }
+    }
+    .cta_btn {
+        background-color:$dark-blue;
+        color: lighten($main-blue, 20);
+        font-size: 2em;
+        font-weight: bold;
+        padding: 0.5em;
+        width: 30%;
+        //border-radius: 10px;
+        margin: 1.2em auto;
+        text-transform: uppercase;
+        transition: background-color 3s, ease-in;
+        &:hover{
+        color: $main-blue;
+        background-color:$dark-blue; 
+        }
+    }
+}
+.social_icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5em;
+    li {
+        list-style-type: none;
+        a {
+            display: block;
+            margin: 0 10px;
+            width: 41px;
+            height: 41px;
+            background-image: url(../images/sprite.png);
+            text-indent: -10000px;
+        }
+        .facebook {
+            background-position: 100px 0;
+        }
+        .twitter {
+            background-position: 0 0;
+        }
+        .linkedin {
+            background-position: 41px 0;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+#benefit{
+     background-color: $dark-blue;
+    padding: 3.125em 0;
+    .benefit{
+        .box{
+            flex-basis: 48%;
+        }
+    }
+    h2{
+        color: lighten($main-blue, 20);
+    }
+    p{
+        color: $white;
+    }
+    ol{
+        margin-left: 1.2em;
+    }
+    li{
+        font-weight: bold;
+        color: lighten($main-blue, 20);
+    }
+}

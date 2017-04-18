@@ -1,0 +1,20 @@
+
+#author{
+    background-color: lighten($main-blue, 30);
+    padding: 3.125em 0 4em;
+    h2{
+      color:$dark-blue;
+    }
+}
+
+.author_image{
+    flex-basis: 28%;
+}
+
+.author_text{
+    flex-basis: 70%;
+    p{
+        color: $dark-blue;
+        font-weight: bold;
+    }
+}
