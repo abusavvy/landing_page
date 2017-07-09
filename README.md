@@ -1,4 +1,4 @@
-# Landing Page Design
+# A Simple Landing Page Design
 A landing page design based on CSS flexbox and code in sass 
 
 ![wireframe](https://raw.githubusercontent.com/abusavvy/landing_page/master/wireframe_image/My_landing_page_design.jpg)
